@@ -9,3 +9,13 @@ To run `dotnet run`
 To exit the game `Ctrl + C` in the terminal window.
 
 There is a .devcontainer for VSCode meaning you don't need to worry about installing dependencies.
+
+## Docker
+
+To build
+
+`docker build . -t meeting-simulator`
+
+To run
+
+`docker run -it --rm --name meeting-simulator meeting-simulator`
