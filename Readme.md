@@ -12,6 +12,8 @@ There is a .devcontainer for VSCode meaning you don't need to worry about instal
 
 ## Docker
 
+The Dockerfile in the project is very basic and uses the dotnet sdk to run the console app instead of a proper build / runtime environment.
+
 To build
 
 `docker build . -t meeting-simulator`
