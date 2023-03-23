@@ -6,8 +6,6 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
             new MeetingSimulator().Start();
         }
     }
