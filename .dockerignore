@@ -1,0 +1,6 @@
+.devcontainer
+.vscode
+bin
+obj
+.gitignore
+Readme.md
