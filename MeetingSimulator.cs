@@ -65,7 +65,7 @@ namespace Games
         public void Start()
         {
             Console.Clear();
-            Console.WriteLine("Enter a selection and press return key");
+            Console.WriteLine("To choose an option, press the relevant (K)ey. Ctrl + C to quit.");
             Console.WriteLine();
             Console.WriteLine("You are sitting in a planning meeting, processes are being discussed.");
             Console.WriteLine("You are asked to estimate hours for a task that you have no idea about...");
@@ -77,7 +77,7 @@ namespace Games
         public void GiveAnEstimation()
         {
             Console.WriteLine($"You estimate {new Random().Next(2, 14)} hours");
-            Console.WriteLine("Everyone is happy that the meeting is movin on");
+            Console.WriteLine("Everyone is happy that the meeting is moving on");
             Console.WriteLine("(S)tart again.");
             Console.WriteLine();
             UpdateState(Console.ReadKey(true));
@@ -106,8 +106,8 @@ namespace Games
 
         public void FlipTheTable()
         {
-            Console.WriteLine("You brace yourself, and in one smooth move, stand from your chair and flip the table in front of you");
-            Console.WriteLine("The room decends into silence and you turn, take a couple of steps and dive out of the nearest window, scattering glass everywhere");
+            Console.WriteLine("You brace yourself, and in one smooth motion, stand from your chair and flip the table in front of you");
+            Console.WriteLine("The room decends into silence and you turn, take a couple of steps and dive out of the nearest window, scattering glass onto the street below");
             Console.WriteLine("Congratulations, you have escaped");
             Console.WriteLine("(S)tart again");
             Console.WriteLine();
